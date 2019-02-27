@@ -1,17 +1,17 @@
 {
-  "name": "browser-soap",
-  "version": "1.0.4",
+  "name": "@tjoussen/browser-soap",
+  "version": "1.0.5",
   "description": "A minimal SOAP client in javascript, so tiny it even runs in browser",
   "engines": {
     "node": ">=0.8.0"
   },
-  "author": "Johniak <romaniakjan@gmail.com>",
+  "author": "Thomas Joussen <tjoussen@databay.de>",
   "dependencies": {
     "node-xml": "1.0.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/johniak/browser-soap.git"
+    "url": "https://github.com/tjoussen/browser-soap.git"
   },
   "main": "./index.js",
   "directories": {
