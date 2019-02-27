@@ -1,6 +1,6 @@
 {
   "name": "@tjoussen/browser-soap",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A minimal SOAP client in javascript, so tiny it even runs in browser",
   "engines": {
     "node": ">=0.8.0"
@@ -14,9 +14,9 @@
     "url": "https://github.com/tjoussen/browser-soap.git"
   },
   "main": "./index.js",
-  "directories": {
-    "lib": "./lib"
-  },
+  "files": [
+    "/lib"
+  ],
   "scripts": {
     "build": "bna -f index.js && uglifyjs index.fused.js -c -m > browser-soap-min.js && rm index.fused.js"
   },
