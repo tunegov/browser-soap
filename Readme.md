@@ -1,3 +1,5 @@
+# Browser Soap
+
 This module lets you connect to web services using SOAP, in pure javascript, using node or browser.
 
 This module is forked from node module "tinysoap@1.0.2".  Specific changes are:
@@ -18,7 +20,7 @@ Features (copied from soap@0.2.6 Readme.md):
 Install with [npm](http://github.com/isaacs/npm):
 
 ```
-  npm install johniak/browser-soap
+  npm install https://github.com/tjoussen/browser-soap
 ```
 
 ## Browser
@@ -113,3 +115,9 @@ WSSecurity implements WS-Security.  UsernameToken and PasswordText/PasswordDiges
   new WSSecurity(username, password, passwordType)
     //'PasswordDigest' or 'PasswordText' default is PasswordText
 ```
+
+## WSDL Options
+
+* **flattenArray** (*default: true*): If false, array child values will be processed as child node elements with its parent node name
+* **childNodeMap** (*default: {}*): Translate the parent node name into another alias which is used as name for child node values. Only used if `flattenArray: false` 
+ 
