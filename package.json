@@ -7,9 +7,11 @@
   },
   "author": "Thomas Joussen <tjoussen@databay.de>",
   "dependencies": {
-    "node-xml": "1.0.2",
     "crypto-browserify": "3.12.0",
-    "https": "1.0.0"
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "node-xml": "1.0.2",
+    "stream": "0.0.2"
   },
   "repository": {
     "type": "git",
